@@ -4,14 +4,12 @@
       "id": 0,
       "title": "Dever de casa",
       "description": "Fazer dever número 2)",
-      "date": "2021/07/24",
       "status": "aberto"
     },
     {
       "id": 1,
       "title": "Aniversário Zezinho",
       "description": "Aniversário do zezinho",
-      "date": "2021/07/24",
       "status": "fechado"
     }
   ]

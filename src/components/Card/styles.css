@@ -1,0 +1,26 @@
+.card {
+  margin-top: 10px;
+  background: #ffffff;
+  width: 85%;
+  border-radius: 5px;
+  padding: 13px;
+  position: relative;
+}
+
+.card_action {
+  position: absolute;
+  right: 0;
+}
+
+.card_title {
+  display: inline-block;
+  border-radius: 10px;
+  padding: 3px 10px;
+  font-size: 0.8rem;
+  margin-bottom: 4px;
+  color: #ffffff;
+}
+
+.card_title {
+  background: #5095e4;
+}
