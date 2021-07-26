@@ -1,12 +1,24 @@
 import React from "react";
 import Card from "../Card";
+import { filterTaskByType } from "../../utils/filtersTask";
 
-// recebe uma lista e returna vários cards
-export default function CardTask({ tasks }) {
+import "./styles.css";
+
+export default function CardTask({ tasks, typeTask }) {
+  const { filter } = filterTaskByType(tasks, typeTask);
+
   return (
     <div className="card-task">
-      {tasks.map((i) => {
-        return <Card />;
+      {filter.map((i, key) => {
+        return (
+          <Card
+            key={key}
+            title={i.title}
+            desc={i.description}
+            status={i.status}
+            color={i.color}
+          />
+        );
       })}
     </div>
   );
