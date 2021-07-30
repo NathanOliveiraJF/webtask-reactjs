@@ -1,22 +1,27 @@
 import React from "react";
 import { Plus } from "react-feather";
 import "./styles.css";
-export default function CardContainer(props) {
+
+export default function CardContainer({ title, children, openModal }) {
   return (
     <div className="card-container">
       <div className="card-container-header">
-        <span className="card-container-title">{props.title}</span>
+        <span className="card-container-title">{title}</span>
 
-        {props.title === "Todo" ? (
+        {title === "Todo" && (
           <div className="card-container-action">
-            <Plus size="24" color="#000000" />
+            <button
+              className="btn-modal"
+              onClick={openModal}
+              data-cy="openModal"
+            >
+              <Plus size="24" color="#000000" />
+            </button>
           </div>
-        ) : (
-          <> </>
         )}
       </div>
 
-      {props.children}
+      {children}
     </div>
   );
 }

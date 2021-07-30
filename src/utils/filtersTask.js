@@ -3,5 +3,5 @@ export function filterTaskByType(tasks, typeTask) {
     return i.type === typeTask;
   });
 
-  return {filter};
+  return filter;
 }

@@ -1,3 +1,10 @@
+.btn-d {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  margin: 3px;
+}
+
 .card {
   margin-top: 10px;
   background: #ffffff;

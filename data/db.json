@@ -1,60 +1,14 @@
 {
   "task": [
     {
-      "id": 0,
-      "title": "Dever de casa",
-      "description": "Fazer dever número 2)",
+      "title": "cypress",
+      "description": "teste com cypress",
+      "color": "#4285f4",
       "status": "Todo",
       "type": "Todo",
-      "color": "#FFA500"
-    },
-    {
-      "id": 1,
-      "title": "Aniversário Zezinho",
-      "description": "Aniversário do zezinho",
-      "status": "Close",
-      "type": "Close",
-      "color": "#5095e4"
-    },
-    {
-      "id": 2,
-      "title": "Jantar",
-      "description": "Jantar",
-      "status": "Open",
-      "type": "Open",
-      "color": "#00FF00"
-    },
-    {
-      "id": 3,
-      "title": "Almoçar",
-      "description": "Almoçar",
-      "status": "Close",
-      "type": "Close",
-      "color": "#FFA500"
-    },
-    {
-      "id": 4,
-      "title": "Trabalho FPOO",
-      "description": "Trabalho FPOO",
-      "status": "Todo",
-      "type": "Todo",
-      "color": "#cb30a3"
-    },
-    {
-      "id": 5,
-      "title": "Trabalho PWA",
-      "description": "Trabalho PWA",
-      "status": "Todo",
-      "type": "Todo",
-      "color": "#e92552"
-    },
-    {
-      "id": 6,
-      "title": "Trabalho BDA",
-      "description": "Trabalho BDA",
-      "status": "Todo",
-      "type": "Todo",
-      "color": "#e0e925"
+      "dataFinal": "30/07/2021",
+      "data": "30/07/2021",
+      "id": 1
     }
   ]
 }
