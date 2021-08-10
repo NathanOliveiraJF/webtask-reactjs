@@ -44,7 +44,6 @@ export default function Card(props) {
             onClick={() => {
               actionStatusCard();
             }}
-       
           >
             <ArrowRight size="24" color="#000000" />
           </button>
