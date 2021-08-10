@@ -18,7 +18,7 @@ export default function Modal({ close, save }) {
   function createTask(e) {
     e.preventDefault();
     const { title, desc, color } = values;
-    let url = "http://localhost:3001/task";
+    let url = "https://webtaskp.herokuapp.com/task";
     let date = new Date();
     fetch(url, {
       method: "POST",

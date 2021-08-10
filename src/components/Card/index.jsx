@@ -6,7 +6,7 @@ export default function Card(props) {
   const { save, status, color, title, desc, data, dataFinal, id } = props;
 
   function actionDeleteCard() {
-    let url = `http://localhost:3001/task/${id}`;
+    let url = `https://webtaskp.herokuapp.com/task/${id}`;
     fetch(url, {
       method: "DELETE",
     });
@@ -16,7 +16,7 @@ export default function Card(props) {
   function actionStatusCard() {
     let con = status === "Todo" ? "Open" : "Close";
     let date = new Date();
-    let url = `http://localhost:3001/task/${id}`;
+    let url = `https://webtaskp.herokuapp.com/task/${id}`;
     fetch(url, {
       method: "PUT",
       headers: { "Content-Type": "application/json" },

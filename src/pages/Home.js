@@ -12,7 +12,7 @@ function Home() {
   const [modal, setModal] = useState(false);
 
   useEffect(() => {
-    let url = "http://localhost:3001/task";
+    let url = "https://webtaskp.herokuapp.com/task";
     fetch(url)
       .then((resp) => resp.json())
       .then((data) => setTasks(data))
